@@ -5,7 +5,7 @@ LABEL repository="https://github.com/lemonarc/jekyll-action"
 LABEL homepage="https://github.com/lemonarc/jekyll-action"
 LABEL maintainer="Leon Aves <leon@lemonarc.com>"
 
-RUN apk add --no-cache git build-base
+RUN apk add --no-cache git build-base nodejs
 
 COPY LICENSE README.md /
 
