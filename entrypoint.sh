@@ -7,6 +7,6 @@ bundle install
 echo "Gems installed"
 
 echo "Jekyll building"
-bundle exec jekyll build
+JEKYLL_ENV=production bundle exec jekyll build
 echo "Jekyll build done"
 
